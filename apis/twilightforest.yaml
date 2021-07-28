@@ -1,0 +1,19 @@
+---
+forge-1.16.5:
+  gradle: |
+      repositories {
+       maven {
+          url = "https://www.dogforce-games.com/maven/"
+        }
+        maven {
+          url = "https://modmaven.dev/"
+        }
+      }
+      
+      dependencies {
+        compileOnly fg.deobf("teamtwilight:twilightforest:4.0.504:universal")
+        runtimeOnly fg.deobf("teamtwilight:twilightforest:4.0.504:universal")
+      }
+  update_files:
+    - ~
+name: "Twilight Forest Central"

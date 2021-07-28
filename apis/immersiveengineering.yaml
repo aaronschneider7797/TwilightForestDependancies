@@ -1,0 +1,15 @@
+---
+forge-1.16.5:
+  gradle: |
+      repositories {
+        maven {
+          url = "https://maven.blamejared.com"
+        }
+      }
+      
+      dependencies {
+        implementation fg.deobf("blusunrize.immersiveengineering:ImmersiveEngineering:1.16.5-5.0.0-135")
+      }
+  update_files:
+    - ~
+name: "Immersive Engineering"
