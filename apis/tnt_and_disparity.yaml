@@ -2,8 +2,8 @@
 forge-1.16.5:
   gradle: |
       dependencies {
-        runtime fg.deobf("net.burnutsplus.tnt_and_disparity:tnt_and_disparity-1.16.5:0.4.1:0638")
-        implementation fg.deobf("net.burnutsplus.tnt_and_disparity:tnt_and_disparity-1.16.5:0.4.1:0638")
+        runtime fg.deobf("net.burnutsplus.tnt_and_disparity:tnt_and_disparity-1.16.5:0.4.1:0638:preintegrationtest")
+        implementation fg.deobf("net.burnutsplus.tnt_and_disparity:tnt_and_disparity-1.16.5:0.4.1:0638:preintegrationtest")
       }
   update_files:
     - ~
