@@ -1,6 +1,12 @@
 ---
 forge-1.16.5:
   gradle: |
+      repositories {
+        maven {
+          url = "https://modmaven.dev/"
+        }
+      }
+      
       dependencies {
         runtime fg.deobf("net.burnutsplus.tnt_and_disparity:tnt_and_disparity-1.16.5:0.4.1:0636:preintegrationtest")
         implementation fg.deobf("net.burnutsplus.tnt_and_disparity:tnt_and_disparity-1.16.5:0.4.1:0636:preintegrationtest")
