@@ -1,10 +1,10 @@
 {
   "id": "twilight_forest_dependancies",
-  "minversion": 20210112313,
+  "minversion": 20210233614,
   "info": {
     "name": "Twilight Forest Dependancies",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "Develop Twilight Forest Add-ons.",
-    "author": "Burnuts Gaming"
+    "author": "Burnuts Gaming, PechayClub"
   }
 }
