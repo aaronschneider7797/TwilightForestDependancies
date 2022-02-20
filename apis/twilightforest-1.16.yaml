@@ -11,7 +11,7 @@ forge-1.16.5:
       }
       
       dependencies {
-        implementation fg.deobf("teamtwilight:twilightforest:4.0.546:universal")
+        implementation fg.deobf("teamtwilight:twilightforest:4.0.870:universal")
       }
   update_files:
     - ~
