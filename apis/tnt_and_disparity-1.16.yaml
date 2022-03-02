@@ -1,0 +1,18 @@
+---
+forge-1.16.5:
+  gradle: |
+      repositories {
+        maven {
+          url = "https://cursemaven.com"
+          content {
+              includeGroup "curse.maven"
+          }
+        }
+      }
+      
+      dependencies {
+        implementation fg.deobf("curse.maven:tntanddisparity-482116:3454427")
+      }
+  update_files:
+    - ~
+name: "TNT and Disparity"
